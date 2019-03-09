@@ -25,7 +25,10 @@ hi FoldColumn       guifg=#0000ee        guibg=#a8a8a8
 hi DiffAdd          guibg=#5fd7ff
 hi DiffChange       guibg=#ffd7ff
 hi DiffDelete       guifg=#5c5cff        guibg=#afffff
-hi DiffText         cterm=bold           guibg=#ff0000
+
+" Original of #ff0000 can be hard to read.
+hi DiffText         cterm=bold           guibg=#ffaaaa
+
 hi SignColumn       guifg=#0000ee        guibg=#a8a8a8
 hi Conceal          guifg=#e5e5e5        guibg=#6c6c6c
 hi SpellBad         guibg=#ffd7d7        guisp=Red
@@ -50,9 +53,11 @@ hi ToolbarButton    cterm=bold           guifg=#ffffff  guibg=#6c6c6c
 hi Comment          guifg=#0000ee
 hi Constant         guifg=#cd0000
 hi Special          guifg=#cd00cd
-" Original is #00cdcd, but that's quite bright IMHO; use this more muted colour.
 hi Identifier       guifg=#008787
+
+" Original is #00cdcd, but that's quite bright IMHO; use this more muted colour.
 hi Statement        guifg=#af5f00
+
 hi PreProc          guifg=#cd00cd
 hi Type             guifg=#00cd00
 hi Underlined       cterm=underline      guifg=#cd00cd
