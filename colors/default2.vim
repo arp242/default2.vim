@@ -44,7 +44,10 @@ hi TabLineSel       cterm=bold
 hi TabLineFill      cterm=reverse
 hi CursorColumn     guibg=#e5e5e5
 hi CursorLine       cterm=underline
-hi ColorColumn      guibg=#ffd7d7
+
+" Original of #ffd7d7 is a bit too intrusive for my liking.
+hi ColorColumn guibg=#f6f6f6
+
 hi StatusLineTerm   cterm=bold           guifg=#ffffff  guibg=#00cd00
 hi StatusLineTermNC guifg=#ffffff        guibg=#00cd00
 hi MatchParen       guibg=#00ffff
