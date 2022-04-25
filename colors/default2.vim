@@ -10,6 +10,7 @@ hi Directory        guifg=#0000ee
 hi ErrorMsg         guifg=#ffffff        guibg=#cd0000
 hi IncSearch        cterm=reverse
 hi Search           guibg=#ffff00
+hi CurSearch        guibg=#dddd00
 hi MoreMsg          guifg=#00cd00
 hi ModeMsg          cterm=bold
 hi LineNr           guifg=#af5f00
